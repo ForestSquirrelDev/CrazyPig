@@ -27,10 +27,10 @@ When i was working with DOTween in my previous project, i found out that my twee
 
 ### Design patterns i used
 #### Scriptable object events
-Long story short, this is basically a variation of observer pattern represented as a bit extended UnityEvent. Greatest advantages of this pattern is persistency of ScriptableObjects and possibility  to subscribe to events that do not exist in the scene yet. I used it to manage bombs, enemies and a lot more.
+Long story short, this is basically a variation of observer pattern represented as a bit extended UnityEvent. Greatest advantages of this pattern are: persistency of ScriptableObjects and possibility to subscribe to events that do not exist in the scene yet. I used it to manage bombs, enemies and a lot more.
 
 #### Scriptable object variables
 One of the two patterns i used here to avoid singletons. [Here](https://github.com/ForestSquirrelDev/DependencyInversion#scriptableobject-variables) i've described my thoughts about this pattern. Long story short - it's a great solution to reference values (e.g. in UI) without creating tons of dependencies and references between components.
 
 #### Runtime sets
-Another great pattern to avoid singletons. I used runtime sets to store count of all bombs and enemies in the scene.
+Another great pattern that replaces one of singleton roles. I used runtime sets to store count of all bombs and enemies in the scene.
