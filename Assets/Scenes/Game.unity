@@ -799,8 +799,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   useConstant: 0
   respawnTime: 5
-  minBombsCount: 1
-  maxBombsCount: 2
+  minBombsCount: 5
+  maxBombsCount: 10
   constBombsCount: 1
   bombPrefab: {fileID: 1671321222742819821, guid: 01009f00675a037459d1f00b6a952bc0, type: 3}
   spawningPoints:
@@ -67317,7 +67317,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useConstant: 1
-  constSpawnCount: 3
+  constSpawnCount: 4
   minSpawnCount: 1
   maxSpawnCount: 4
   spawnGap: 1

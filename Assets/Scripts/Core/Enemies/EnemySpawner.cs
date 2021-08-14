@@ -48,6 +48,8 @@ namespace CrazyPig.Enemies
                 SpawnRandomEnemy();
                 yield return new WaitForSeconds(spawnGap);
             }
+
+            StartCoroutine(SpawnEnemiesContinuously());
         }
 
         private IEnumerator SpawnEnemiesInQueue()
