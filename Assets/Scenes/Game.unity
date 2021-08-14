@@ -800,8 +800,8 @@ MonoBehaviour:
   useConstant: 0
   respawnTime: 5
   minBombsCount: 1
-  maxBombsCount: 10
-  constBombsCount: 5
+  maxBombsCount: 2
+  constBombsCount: 1
   bombPrefab: {fileID: 1671321222742819821, guid: 01009f00675a037459d1f00b6a952bc0, type: 3}
   spawningPoints:
   - {fileID: 2332348765170826648}
@@ -86985,7 +86985,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: 78253dd6a50a9df40a07769e32ec41a7, type: 2}
     - target: {fileID: 7783200771439381163, guid: ed397b74148889b459905a41bec87045, type: 3}
       propertyPath: isEditor
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7783200771439381163, guid: ed397b74148889b459905a41bec87045, type: 3}
       propertyPath: maxHealth

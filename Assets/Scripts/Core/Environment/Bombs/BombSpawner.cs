@@ -22,6 +22,11 @@ namespace CrazyPig.Environment
         [SerializeField] private BombsSet allBombs;
         private List<Transform> allPoints = new List<Transform> { };
 
+        private void Awake()
+        {
+            allBombs.ClearItems();
+        }
+
         private void Start()
         {
             SpawnBombs();
@@ -44,7 +49,7 @@ namespace CrazyPig.Environment
         private IEnumerator RecalculateBombs()
         {
             yield return new WaitForSeconds(1f);
-
+            Debug.Log(allBombs.Items.Count);
             while(true)
             {
                 if(allBombs.Items.Count == 0)
