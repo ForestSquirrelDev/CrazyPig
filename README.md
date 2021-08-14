@@ -23,13 +23,14 @@ From time to time i use C# classes, MonoBehaviours and ScriptableObjects. Here i
 - Otherwise i use MonoBehaviours
 
 ### Tweening
-When i was working with DOTween in my previous project, i found out that my tweening methods are hevily tied to in-game references and are completely unreusable. I tried to learn from my comistakes - now tweening classes are pluggable scriptable objects, derived from abstract class TweenPlugin. If i want to tween something, i simply drag the scriptable object in MonoBehaviour field in the inspector and call the tweening method from this script. Or instantiate the scriptable object in memory if i need multiple copies.
+When i was working with DOTween in my previous project, i found out that my tweening methods are hevily tied to in-game references and are completely unreusable. I tried to learn from my mistakes - now tweening classes are pluggable scriptable objects, derived from abstract class TweenPlugin. If i want to tween something, i simply drag the scriptable object in MonoBehaviour field in the inspector and call the tweening method from this script. Or instantiate the scriptable object in memory if i need multiple copies.
 
-### Scriptable object events
+### Design patterns i used
+#### Scriptable object events
 Long story short, this is basically a variation of observer pattern represented as a bit extended UnityEvent. Greatest advantages of this pattern is persistency of ScriptableObjects and possibility  to subscribe to events that do not exist in the scene yet. I used it to manage bombs, enemies and a lot more.
 
-### Scriptable object variables pattern
+#### Scriptable object variables
 One of the two patterns i used here to avoid singletons. [Here](https://github.com/ForestSquirrelDev/DependencyInversion#scriptableobject-variables) i've described my thoughts about this pattern. Long story short - it's a great solution to reference values (e.g. in UI) without creating tons of dependencies and references between components.
 
-### Runtime sets
+#### Runtime sets
 Another great pattern to avoid singletons. I used runtime sets to store count of all bombs and enemies in the scene.
