@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92f46a6e26e5d4c4bb46812940b89d70, type: 3}
+  m_Name: DeathQuotes
+  m_EditorClassIdentifier: 
+  quotes:
+  - '"Death is not the greatest loss in life. The greatest loss is what dies inside
+    us while we live." - Norman Cousins'
+  - "\"Endings are not always bad. Most times they\u2019re just beginnings in disguise.\"
+    - Kim Harrison"
+  - '"It is not death that a man should fear, but he should fear never beginning
+    to live." - Marcus Aurelius'
+  - '"Losing your life is not the worst thing that can happen. The worst thing is
+    to lose your reason for living." - Jo Nesbo'
+  - '"From my rotting body, flowers shall grow and I am in them, and that is eternity."
+    - Edvard Munch'
+  - '"It matters not how a man dies, but how he lives. The act of dying is not of
+    importance, it lasts so short a time." - Samuel Johnson '
+  - '"Life and death are one thread, the same line viewed from different sides."
+    - Lao Tzu'
+  - "\"We all die. The goal isn\u2019t to live forever, the goal is to create something
+    that will.\" - Chuck Palahniuk"
+  - '"The fear of death follows from the fear of life. A man who lives fully is prepared
+    to die at any time." - Mark Twain'
+  - '"No one really knows why they are alive until they know what they''d die for."
+    - Martin Luther King Jr.'
+  - '"Graves cannot contain my spirit; death is not the end of time, though my body
+    turns to ashes, I will rest in peace sublime." - Greta Zwaan'

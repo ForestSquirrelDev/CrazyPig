@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a37d7c4c16659b944a030a0e58395d6f, type: 3}
+  m_Name: DogAngry
+  m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: 6612374894605627977, guid: 021b138e74a7dff4e823ba0e4c05497b, type: 3}
+  - {fileID: 5361668627280901228, guid: 021b138e74a7dff4e823ba0e4c05497b, type: 3}
+  - {fileID: -2359721649071251821, guid: 021b138e74a7dff4e823ba0e4c05497b, type: 3}
+  - {fileID: 748373261593968425, guid: 021b138e74a7dff4e823ba0e4c05497b, type: 3}

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a37d7c4c16659b944a030a0e58395d6f, type: 3}
+  m_Name: FarmerCalm
+  m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: 3191130952945803347, guid: 4482eab5f4981c64199adc4f4af91ba7, type: 3}
+  - {fileID: -4697590009104051591, guid: 4482eab5f4981c64199adc4f4af91ba7, type: 3}
+  - {fileID: -9215070241222095863, guid: 4482eab5f4981c64199adc4f4af91ba7, type: 3}
+  - {fileID: -284627385986098231, guid: 4482eab5f4981c64199adc4f4af91ba7, type: 3}
